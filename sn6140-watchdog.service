@@ -1,0 +1,12 @@
+[Unit]
+Description=Huawei MateBook SN6140 speaker fix watchdog
+After=sound.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/sbin/sn6140-watchdog
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
