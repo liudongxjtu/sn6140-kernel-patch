@@ -7,7 +7,7 @@
 - **上游**:`0001-ALSA-hda-conexant-Fix-silent-speaker-on-Huawei-MateB.patch` 已于
   2026-09-19 被 Takashi Iwai 合入 sound 子系统 for-next 分支("Applied to for-next
   branch now. Thanks."),并于内核 v7.3(2026-10-18 发布)之后随 7.4 合并窗口进入主线,
-  commit `b57f5571a3e8`(https://github.com/torvalds/linux/commit/b57f5571a3e8)。
+  commit `b57f5571a3e8`( https://github.com/torvalds/linux/commit/b57f5571a3e8 )。
   首个包含该 quirk 的正式内核为 v7.4(预计 2026-12 发布);提交未标 Cc: stable,
   不会自动回移植到 7.x.y 稳定版。
 - **本地**:Ubuntu 26.04(内核 7.0.0-30/31)在发行版内核包含该 quirk 之前,通过
